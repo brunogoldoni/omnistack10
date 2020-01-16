@@ -1,0 +1,8 @@
+#app {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 60px 30px;
+}

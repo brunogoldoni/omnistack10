@@ -1,0 +1,71 @@
+aside {
+  background: #FFFFFF;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0,.02);
+  border-radius: 2px;
+  padding: 20px 20px;
+  width: 320px;
+}
+
+aside strong {
+  color: #333;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+
+aside form {
+  margin-top: 30px;
+}
+
+aside form .input-block + .input-block {
+  margin-top: 20px;
+}
+
+aside form .input-block label {
+  margin-top: 0;
+}
+
+aside form .input-group {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+aside form .input-group .input-block {
+  margin-top: 0;
+}
+
+aside form .input-block label {
+  color: #ACACAC;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+aside form .input-block input {
+  color: #666;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  height: 32px;
+  width: 100%;
+}
+
+aside form button[type=submit] {
+  background: #7d40e7;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff ;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin-top: 30px;
+  width: 100%;
+  transition: background 0.5s;
+}
+
+aside form button[typesubmit]:hover {
+  background: #6931ca;
+}
